@@ -24,5 +24,6 @@ public class DemoAnnoController {
     @ResponseBody
     public String demoPathVar(@PathVariable String str,HttpServletRequest request){
 
+        return "";
     }
 }
