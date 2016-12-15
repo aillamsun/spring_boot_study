@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.springframework.web" level="DEBUG"/>
+    <logger name="org.springboot.sample" level="TRACE"/>
+
+    <!-- 开发环境. 多个使用逗号隔开. -->
+    <springProfile name="dev">
+        <logger name="org.springframework.web" level="INFO"/>
+        <logger name="org.springboot.sample" level="INFO"/>
+        <logger name="com.example" level="INFO"/>
+    </springProfile>
+
+
+    <!-- 生产环境. -->
+    <springProfile name="prod">
+        <logger name="org.springframework.web" level="ERROR"/>
+        <logger name="org.springboot.sample" level="ERROR"/>
+        <logger name="com.example" level="ERROR"/>
+    </springProfile>
+</configuration>
+
