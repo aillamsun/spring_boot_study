@@ -19,7 +19,7 @@ public class HelloController {
 
     @RequestMapping("")
     public String hello() {
-        return "book name is: " + bookName + " and book author is:" + bookAuthor;
+        return "book name is: " + bookName + " and book author is:" + bookAuthor + "";
     }
 
 }
