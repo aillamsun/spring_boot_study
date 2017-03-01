@@ -82,6 +82,7 @@
     </dependencyManagement>
 
     <repositories>
+        <!--
         <repository>
             <id>oschina Releases</id>
             <name>oschina Releases</name>
@@ -135,7 +136,7 @@
             <name>Sourceforge Releases</name>
             <url>https://oss.sonatype.org/content/repositories/sourceforge-releases</url>
         </repository>
-
+        -->
     </repositories>
 
     <dependencies>
