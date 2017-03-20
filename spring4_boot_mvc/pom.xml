@@ -21,6 +21,11 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
         <!-- Spring starter-web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -170,6 +175,29 @@
             <artifactId>activemq-core</artifactId>
             <version>5.7.0</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>com.mzlion</groupId>
+            <artifactId>easy-okhttp</artifactId>
+            <version>1.0.7-beta</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.kstyrc</groupId>
+            <artifactId>embedded-redis</artifactId>
+            <optional>true</optional>
+        </dependency>
+
 
 
     </dependencies>
